@@ -15,8 +15,8 @@ const Header: React.FC = () => {
         <NavLink
           to = "/" 
             className={({ isActive }) =>
-              isActive ? "text-x1 font-bold text-white px-6 py-1 transition transform duration-200"
-                       : "text-sm text-gray-400 px-6 py-1 hover:scale-115 transition transform duration-200"
+              isActive ? "text-base font-bold text-white px-6 py-1 transition transform duration-200 origin-center"
+                       : "text-base text-gray-400 px-6 py-1 hover:scale-115 transition transform duration-200 origin-center"
           }>
           halcy.dev
         </NavLink>
@@ -24,8 +24,8 @@ const Header: React.FC = () => {
         <NavLink
           to = "/about"
            className={({ isActive }) => 
-            isActive ? "text-x1 font-bold text-white px-6 py-1 transition transform duration-200"
-                     : "text-sm text-gray-400 px-6 py-1 hover:scale-115 transition transform duration-200"
+            isActive ? "text-base font-bold text-white px-6 py-1 transition transform duration-200 origin-center"
+                     : "text-base text-gray-400 px-6 py-1 hover:scale-115 transition transform duration-200 origin-center"
           }>
           About 
         </NavLink>
@@ -33,8 +33,8 @@ const Header: React.FC = () => {
         <NavLink
           to = "/projcts"
             className={({ isActive }) => 
-              isActive ? "text-x1 font-bold text-white px-6 py-1 transition transform duration-200"
-                        : "text-sm text-gray-400 px-6 py-1 hover:scale-115 transition transform duration-200"
+              isActive ? "text-base font-bold text-white px-6 py-1 transition transform duration-200 origin-center"
+                        : "text-base text-gray-400 px-6 py-1 hover:scale-115 transition transform duration-200 origin-center"
             }>
             Projects
           </NavLink>
@@ -42,8 +42,8 @@ const Header: React.FC = () => {
           <NavLink
           to = "/blog"
             className={({ isActive }) => 
-              isActive ? "text-x1 font-bold text-white px-6 py-1 transition transform duration-200"
-                        : "text-sm text-gray-400 px-6 py-1 hover:scale-115 transition transform duration-200"
+              isActive ? "text-base font-bold text-white px-6 py-1 transition transform duration-200 origin-center"
+                        : "text-base text-gray-400 px-6 py-1 hover:scale-115 transition transform duration-200 origin-center"
             }>
             Blog
           </NavLink>
