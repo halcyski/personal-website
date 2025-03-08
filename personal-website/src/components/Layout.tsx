@@ -1,19 +1,21 @@
 import React from "react";
 import Header from "./Header";
-import Footer from './Footer';
 
 interface LayoutProps {
     children: React.ReactNode;
   }
-  
-  const Layout: React.FC<LayoutProps> = ({ children }) => {
-    return (
-      <>
-        <Header />
-        {children}
-        <Footer />
-      </>
-    );
-  };
+  // The children 'prop' represents an element that fits between another
+  // element's opening and closing tags 
+
+  // In this case the children are rendered btween header and footer
+
+const Layout: React.FC<LayoutProps> = ({ children }) => {
+  return (
+    <div className="min-h-screen flex flex-col">
+      <Header />
+      <main className="flex-1">{children}</main>
+    </div>
+  );
+};
 
 export default Layout;
