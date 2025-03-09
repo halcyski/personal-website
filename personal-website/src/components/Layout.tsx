@@ -7,7 +7,6 @@ interface LayoutProps {
   // The children 'prop' represents an element that fits between another
   // element's opening and closing tags 
 
-  // In this case the children are rendered btween header and footer
 
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (

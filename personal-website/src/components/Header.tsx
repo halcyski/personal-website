@@ -8,14 +8,14 @@ const Header: React.FC = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <header className="sticky top-5 w-full bg-[#262626] text-white px-6 py-0 flex justify-between items-left">
+    <header className="sticky top-0 w-full bg-[#262626] text-white px-6 py-5 flex justify-between items-left">
       
   
       <nav className="navbar flex space-x-8">
         <NavLink
           to = "/" 
             className={({ isActive }) =>
-              isActive ? "text-base font-bold text-white px-6 py-1 transition transform duration-200 origin-center"
+              isActive ? "text-base font-bold text-white px-6 py-1 transition transform duration-200 origin-center justify-center"
                        : "text-base text-gray-400 px-6 py-1 hover:scale-115 transition transform duration-200 origin-center"
           }>
           halcy.dev
@@ -31,7 +31,7 @@ const Header: React.FC = () => {
         </NavLink>
 
         <NavLink
-          to = "/projcts"
+          to = "/projects"
             className={({ isActive }) => 
               isActive ? "text-base font-bold text-white px-6 py-1 transition transform duration-200 origin-center"
                         : "text-base text-gray-400 px-6 py-1 hover:scale-115 transition transform duration-200 origin-center"
