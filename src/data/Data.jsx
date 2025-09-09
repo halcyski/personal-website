@@ -19,8 +19,8 @@ export const projectsData = [
     {
         permissions: "-rwxr-xr-x",
         owner: personalInfo.user,
-        name: "CPU-Design-in-Verilog",
-        description: "A 5-stage pipelined RISC-V processor with hazard detection.",
-        link: "#",
+        name: "Digital-CPU",
+        description: "Single-Cycle CPU with custom instruction set, 4x32 register file, ALU; Turing Complete",
+        link: "https://github.com/halcyski/digital-cpu",
     }
 ];
