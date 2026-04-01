@@ -26,8 +26,8 @@ export const projectsData = [
     {
         permissions: "-rwxr-xr-x",
         owner: personalInfo.user,
-        name: "Ring 0 Linux Kernel Anti-Cheat"
-        description: "Kerenel Level Anti-Cheat for Linux systems, developed on WSL2 and Linux natively"
+        name: "Ring 0 Linux Kernel Anti-Cheat",
+        description: "Kerenel Level Anti-Cheat for Linux systems, developed on WSL2 and Linux natively",
         link: "#"
     }, 
 
